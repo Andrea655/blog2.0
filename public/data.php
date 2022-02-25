@@ -2,7 +2,7 @@
 <?php
 class db{
     private $hote = 'localhost'; // le chemin vers le serveur
-    private $base = 'base'; // le nom de votre base de donnée
+    private $base = 'users'; // le nom de votre base de donnée
     private $utilisateur = 'root'; // nom d'utilisateur pour se connecter
     private $pass = ''; //mot de passe pour se connecter
     private $db;
